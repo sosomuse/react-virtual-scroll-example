@@ -30,7 +30,7 @@ export const useVirtualScroll = <Item extends unknown>({
       const nextStartIndex = Math.floor(scrollTop / itemHeight);
       setStartIndex(nextStartIndex);
     },
-    [containerHeight, itemHeight, maxDisplayCount]
+    [itemHeight]
   );
 
   const displayingItems = useMemo(
