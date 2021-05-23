@@ -1,4 +1,4 @@
-const DATA_COUNT = 100;
+const DATA_COUNT = 10000;
 
 const getArray = (count: number) => {
   const arr = [];
